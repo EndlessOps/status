@@ -1,50 +1,50 @@
 # Change these first
-owner: EndlessMedia-Cluster # Your GitHub organization or username, where this repository lives
+owner: EndlessDEVOps # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
 sites:
   - name: Comet Stremio Addon
     url: https://comet.endlessmedia.me
     assignees:
-      - EndlessMedia-Cluster
+      - EndlessDEVOps
     expectedStatusCodes:
       - 200
   - name: Knightcrawler Stremio Addon
     url: https://knightcrawler.elfhosted.com/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
-      - EndlessMedia-Cluster
+      - EndlessDEVOps
     expectedStatusCodes:
       - 200
   #- name: MediaFusion Stremio Addon
   #  url: https://mediafusion.endlessmedia.me/health
   #  assignees:
-  #    - EndlessMedia-Cluster
+  #    - EndlessDEVOps
   #  expectedStatusCodes:
   #    - 302
   - name: StreamThru Stremio Addons
     url: https://streamthru.endlessmedia.me
     assignees:
-      - EndlessMedia-Cluster
+      - EndlessDEVOps
     expectedStatusCodes:
       - 200
   - name: TorrentIO Addon
     url: https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
-      - EndlessMedia-Cluster
+      - EndlessDEVOps
     expectedStatusCodes:
       - 200
   - name: Zilean
     url: https://zilean.endlessmedia.me/healthchecks/ping
     assignees:
-      - EndlessMedia-Cluster
+      - EndlessDEVOps
     expectedStatusCodes:
       - 200
 status-website:
   themeUrl: https://status.elfhosted.com/elfhosted.css
   cname: status.endlessmedia.me
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/EndlessMedia-Cluster/status/refs/heads/dev/assets/Cineverse.png
+  logoUrl: https://raw.githubusercontent.com/EndlessDEVOps/status/refs/heads/dev/assets/Cineverse.png
   name: Status | EndlessMedia
   introTitle: "**EndlessMedia** is the open-source uptime monitor and status page, powered entirely by GitHub."
   navbar:
